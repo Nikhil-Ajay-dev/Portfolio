@@ -91,6 +91,7 @@ export const skills: Skill[] = [
   // { name: "Next.js", category: 'frontend', icon: 'nextjs' },
   // { name: "Vue.js", category: 'frontend', icon: 'vue' },
   { name: "Node.js", category: 'backend', icon: 'nodejs' },
+  { name: "Spring Boot", category: 'backend', icon: 'springboot' },
   // { name: "Express.js", category: 'backend', icon: 'express' },
   { name: "PostgreSQL", category: 'backend', icon: 'postgresql' },
   // { name: "MongoDB", category: 'backend', icon: 'mongodb' },

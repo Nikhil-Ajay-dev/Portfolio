@@ -63,7 +63,7 @@ const Skills: React.FC = () => {
   const getSkillIcon = (iconName: string) => {
     const iconMap: { [key: string]: JSX.Element } = {
       react: <div className="w-8 h-8 rounded-lg bg-blue-100 flex items-center justify-center text-blue-600 font-bold text-sm">
-        <img src='https://cdn.iconscout.com/icon/free/png-256/free-react-logo-icon-download-in-svg-png-gif-file-formats--company-brand-world-logos-vol-4-pack-icons-282599.png?f=webp&w=256' />
+        <img src='https://img.favpng.com/24/2/12/js-icon-logo-icon-react-icon-png-favpng-V4GKq1D3n3V713pYyrHeAERdm.jpg' />
       </div>,
       // typescript: <div className="w-8 h-8 rounded-lg bg-blue-100 flex items-center justify-center text-blue-600 font-bold text-sm">TS</div>,
       javascript: <div className="w-8 h-8 rounded-lg bg-yellow-100 flex items-center justify-center text-yellow-600 font-bold text-sm">
@@ -82,6 +82,9 @@ const Skills: React.FC = () => {
       // vue: <div className="w-8 h-8 rounded-lg bg-green-100 flex items-center justify-center text-green-600 font-bold text-sm">V</div>,
       nodejs: <div className="w-8 h-8 rounded-lg bg-cyan-100 flex items-center justify-center text-cyan-600 font-bold text-sm">
         <img src='https://images.g2crowd.com/uploads/product/image/large_detail/large_detail_f0b606abb6d19089febc9faeeba5bc05/nodejs-development-services.png' />
+      </div>,
+      springboot: <div className="w-8 h-8 rounded-lg bg-cyan-100 flex items-center justify-center text-cyan-600 font-bold text-sm">
+        <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgu8cRVSRm96BF4FEJ4DA9IROZYI1wYR0RRA&s' />
       </div>,
       // express: <div className="w-8 h-8 rounded-lg bg-gray-100 flex items-center justify-center text-gray-700 font-bold text-sm">E</div>,
       postgresql: <div className="w-8 h-8 rounded-lg bg-cyan-100 flex items-center justify-center text-cyan-600 font-bold text-sm">
